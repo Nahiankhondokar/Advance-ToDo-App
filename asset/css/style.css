@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(10, 55, 56);
+}
+.todo{
+    margin: 100px auto 0px;
+}
+
+.todo input{
+    margin-right: 20px;
+}
+
+
+.progress{
+    /* width: 5%; */
+    height: 4px;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+

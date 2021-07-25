@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- All CSS Links -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="todo">
+            <div class="card">
+                <div class="card-header">
+                    <h2>ToDo App</h2>
+                </div>
+                <div class="card-body m-auto">
+
+                    <p class="error"></p>
+                   <form class="todo_form" action="">
+                        <div class="form-inline">
+                            <div class="form-group">
+                                <input placeholder="Task Name"  class="form-control task_name" type="text">
+                            </div>
+                            <div class="form-group">
+                                <input placeholder="Client Name"  class="form-control client_name" type="text">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control date" type="date">
+                            </div>
+                            <div class="form-group">
+                                <input id="todo_time" class="form-control" type="time">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-warning"><i class="fa fa-plus" aria-hidden="true"></i> Add</button>
+                            </div>
+                        </div>
+                   </form>
+
+                   <!-- Todo List -->
+                   <hr>
+                    <div id="todo_list" class="todo-list d-block">
+                       
+                         
+                    </div>
+                </div>
+    
+                <div class="card-footer">
+                    <p>Total item number : <span>7</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+    <!-- Js Files -->
+    <script src="asset/js/bootstrap.js"></script>
+    <script src="asset/js/script.js"></script>
+    
+</body>
+</html>
