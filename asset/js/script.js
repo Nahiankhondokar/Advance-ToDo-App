@@ -12,6 +12,15 @@ let todo_error_msg   = document.querySelector(".card-body .error");
 let todo_list   = document.querySelector("#todo_list");
 let total_item   = document.querySelector(".card-footer p span");
 
+// Date
+let date  = document.querySelector(".card-header h3 span");
+
+// Date Fixing
+let d = new Date();
+let day = d.getDate();
+let month = d.getMonth();
+let year = d.getFullYear();
+date.innerText = `${day} / ${month + 1} / ${year}`;
 
 
 
